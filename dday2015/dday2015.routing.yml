@@ -1,0 +1,17 @@
+dday2015.test_page:
+  path: test-page
+  defaults:
+    _controller: '\Drupal\dday2015\Controller\Dday2015Controller::testPageCallback'
+    _title: 'Test Page'
+  requirements:
+    _permission: 'access content'
+dday2015.dday2015_form:
+  path: '/admin/config/dday2015/dday2015'
+  defaults:
+    _form: '\Drupal\dday2015\Form\DDay2015Form'
+    _title: 'DDay2015Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

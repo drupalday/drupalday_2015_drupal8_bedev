@@ -1,0 +1,6 @@
+name: 'Dday 2015 My module'
+type: module
+description: 'Description of this module'
+package: 'DDAY SCHOOL'
+version: 1.0
+core: 8.x
